@@ -1,0 +1,98 @@
+section.menu{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+section.menu>div.right{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+section.menu>div.left{
+    width: 80%;
+    height: 100%;
+}
+section.menu>div.left>div.top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+section.menu>div.left>div.bottom{
+    width: 100%;
+    height: 50%;
+}
+section.menu>div.left>div.bottom>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    justify-content: center;
+}
+section.menu>div.left>div.bottom>ul>li{
+    text-decoration: none;
+    list-style: none;
+}
+section.menu>div.left>div.bottom>ul>li>a{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+section.menu>div.left>div.bottom>ul>li>a:hover{
+    color: rgba(0, 0, 0, 0.801);
+}
+section.menu>div.left>div.top>div.right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+section.menu>div.left>div.top>div.left{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.menu>div.left>div.top>div.right>input{
+    height: 40px;
+    width: 450px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d9d9d9;
+    text-align: right;
+    font-size: 16px;
+    padding-right: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+section.menu>div.left>div.top>div.right>input:focus{
+    outline: none;
+}
+section.menu>div.left>div.top>div.right>input::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+section.menu>div.left>div.top>div.left>a>img{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+section.menu>div.left>div.top>div.left>a:nth-of-type(2)>img{
+    margin-right: 130px;
+}
+section.menu>div.left>div.top>div.left>a:nth-of-type(2)>img{
+    width: 40px;
+}
+section.menu>div.right>a>img{
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+}
+
